@@ -11,11 +11,11 @@ a ca="conda activate"
 # Git shortcuts
 a gbls="git branch"
 a gcom="git commit -am"
-a gsw= "git switch -c"
+a gsw="git switch -c"
 a gs="git status"
 a gpull="git pull"
 a gpush="git push"
-a ga="git add"
+a ga="git add ."
 
 # Code quality
 a wipe="find . -name ".ipynb_checkpoints" -exec rm -r "{}" \;"
