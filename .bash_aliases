@@ -10,8 +10,8 @@ alias ca="conda activate "
 
 # Git shortcuts
 alias gb="git branch"
+alias gc="git switch "
 alias gcom="git commit -am "
-alias gsw="git switch -c "
 alias gs="git status"
 alias gpull="git pull"
 alias gpush="git push"
