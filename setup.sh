@@ -7,7 +7,6 @@ echo ". ~/.complete_alias" >> ~/.bash_completion
 # Bash aliases
 wget -O ~/.bash_aliases https://raw.githubusercontent.com/muellerzr/dotfiles/master/.bash_aliases
 source ~/.bash_aliases
-
 source ~/.complete_alias
 
 [[ -z $NAME  ]] && read -e -p "Enter your name (for git configuration): " NAME
