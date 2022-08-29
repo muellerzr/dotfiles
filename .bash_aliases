@@ -14,7 +14,7 @@ alias gc="git switch "
 alias gcom="git commit -am "
 alias gs="git status"
 alias gpull="git pull"
-alias gpush="git push"
+alias gpush="git push origin "
 alias ga="git add ."
 
 # Code quality
