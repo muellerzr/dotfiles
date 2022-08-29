@@ -15,3 +15,9 @@ To enable conda autocomplete, run:
 conda activate base
 conda install -c conda-forge conda-bash-completion -y
 ```
+
+## Auto-make git push
+
+```bash
+git config --global push.default current
+```
