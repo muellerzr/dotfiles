@@ -9,7 +9,7 @@ alias cnew="conda create -n"
 alias ca="conda activate "
 
 # Git shortcuts
-alias gbls="git branch"
+alias gb="git branch"
 alias gcom="git commit -am "
 alias gsw="git switch -c "
 alias gs="git status"
