@@ -21,7 +21,7 @@ alias clean="make style; make quality"
 
 # HuggingFace Specific
 # list all no_trainer scripts from inside examples/pytorch
-a ls_no_trainer="find . -name "*no_trainer*" -type f -printf '%y %p\n\0' | sort -z"
+alias ls_no_trainer="find . -name "*no_trainer*" -type f -printf '%y %p\n\0' | sort -z"
 
 # NVIDIA SMI
 alias nmi="nvidia-smi"
