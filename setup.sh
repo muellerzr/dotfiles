@@ -1,5 +1,5 @@
 wget -O ~/.bash_aliases https://raw.githubusercontent.com/muellerzr/dotfiles/master/.bash_aliases
-source activate ~/.bash_aliases
+source ~/.bash_aliases
 
 [[ -z $NAME  ]] && read -e -p "Enter your name (for git configuration): " NAME
 [[ -z $EMAIL ]] && read -e -p "Enter your email (for git configuration): " EMAIL
