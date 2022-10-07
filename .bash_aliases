@@ -21,6 +21,9 @@ alias ga="git add ."
 alias wipe="find . -name ".ipynb_checkpoints" -exec rm -r "{}" \;"
 alias clean="make style; make quality"
 
+# History searching
+alias search="history | grep " 
+
 # HuggingFace Specific
 # list all no_trainer scripts from inside examples/pytorch
 alias ls_no_trainer="find . -name "*no_trainer*" -type f -printf '%y %p\n\0' | sort -z"
