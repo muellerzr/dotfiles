@@ -16,6 +16,8 @@ alias gs="git status"
 alias gpull="git pull"
 alias gpush="git push origin "
 alias ga="git add ."
+alias gclone="git clone "
+alias gurl="https://github.com/"
 
 # Code quality
 alias wipe="find . -name ".ipynb_checkpoints" -exec rm -r "{}" \;"
