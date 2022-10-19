@@ -1,6 +1,6 @@
 #!/bin/bash
 # Initial setup
-wget https://github.com/muellerzr/dotfiles/blob/master/setup_scripts/basic.sh
+wget https://raw.githubusercontent.com/muellerzr/dotfiles/master/setup_scripts/basic.sh
 chmod +x basic.sh
 ./basic.sh
 
