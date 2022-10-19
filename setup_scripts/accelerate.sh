@@ -1,6 +1,6 @@
 # Initial setup
 wget https://github.com/muellerzr/dotfiles/blob/master/setup_scripts/basic.sh
-chmod +ax basic.sh
+chmod +x basic.sh
 ./basic.sh
 
 # Create conda env
