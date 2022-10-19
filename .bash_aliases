@@ -1,5 +1,9 @@
 alias sudo="sudo "
 
+# Pip shortcuts
+alias pi="pip install "
+alias pie="pip install -e "
+
 # Conda shortcuts
 alias ceu="conda env update"
 alias cls="conda env list"
@@ -9,6 +13,7 @@ alias cnew="conda create -n"
 alias ca="conda activate "
 
 # Git shortcuts
+alias ga="git add ."
 alias gb="git branch"
 alias gc="git switch "
 alias gcom="git commit -am "

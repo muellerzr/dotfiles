@@ -14,3 +14,4 @@ source ~/.complete_alias
 [[ $NAME  ]] && git config --global user.name "$NAME"
 [[ $EMAIL ]] && git config --global user.email "$EMAIL"
 git config --global credential.helper store
+git config --global push.default current
