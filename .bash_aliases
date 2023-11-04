@@ -1,7 +1,7 @@
 # Aliases for CUDA devices
-cpu() {CUDA_VISIBLE_DEVICES="" "$@"}
-gpu() {CUDA_VISIBLE_DEVICES="0" "$@"}
-2gpu() {CUDA_VISIBLE_DEVICES="0,1" "$@"}
+cpu() { CUDA_VISIBLE_DEVICES="" "$@"; }
+gpu() { CUDA_VISIBLE_DEVICES="0" "$@"; }
+2gpu() { CUDA_VISIBLE_DEVICES="0,1" "$@"; }
 
 # Aliases for pytest
 alias pyt="pytest -sv "
