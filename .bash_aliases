@@ -1,4 +1,11 @@
-alias sudo="sudo "
+# Aliases for CUDA devices
+cpu() {CUDA_VISIBLE_DEVICES="" "$@"}
+gpu() {CUDA_VISIBLE_DEVICES="0" "$@"}
+2gpu() {CUDA_VISIBLE_DEVICES="0,1" "$@"}
+
+# Aliases for pytest
+alias pyt="pytest -sv "
+alias pytd="pytest -n auto --dist=loadfile -sv "
 
 # Pip shortcuts
 alias pi="pip install "
@@ -35,8 +42,9 @@ alias search="history | grep "
 # list all no_trainer scripts from inside examples/pytorch
 alias ls_no_trainer="find . -name "*no_trainer*" -type f -printf '%y %p\n\0' | sort -z"
 
-# NVIDIA SMI
+# NVIDIA
 alias nmi="nvidia-smi"
+
 
 # Docker
 alias dkill="docker kill"
