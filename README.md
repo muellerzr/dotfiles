@@ -4,7 +4,9 @@ The approach used here is from https://developer.atlassian.com/blog/2016/02/best
 
 To install these all in one line:
 
-`wget -O - https://raw.githubusercontent.com/muellerzr/dotfiles/master/setup.sh | bash`
+```bash
+wget -O - https://raw.githubusercontent.com/muellerzr/dotfiles/master/setup.sh | bash
+```
 
 
 ## Autocomplete conda
